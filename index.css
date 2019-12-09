@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Life Savers';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Life Savers Regular'), local('LifeSavers-Regular'), url(https://fonts.gstatic.com/s/lifesavers/v10/ZXuie1UftKKabUQMgxAal8lsHAs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'The Girl Next Door';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('The Girl Next Door'), local('TheGirlNextDoor'), url(https://fonts.gstatic.com/s/thegirlnextdoor/v10/pe0zMJCIMIsBjFxqYBIcZ6_OI5oFHCY4ULF6.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v19/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58a-wg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v19/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkM0o58a-wg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v19/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkCEv58a-wg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v19/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkBgv58a-wg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.entrance-page {
+    background-image: url("../Portfolio/images/first");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    
+}
+.entrance-info {
+    font-size: 50pt;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Life Savers', cursive;
+    display: inline-block;
+    
+
+    
+}
+#enter {
+    font-size: 20pt;
+    color: white;
+    border: 3px outset white;
+    background-color: rgb(71, 133, 159);
+    font-family: 'Life Savers', cursive;
+    border-color: white;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.name {
+   font-family:'Life Savers', cursive;
+   color: white;
+   font-size: 40pt
+
+}
+#nav {
+    font-family:'Life Savers', cursive;
+    color: white;
+    font-size: 18pt;
+    padding: 30px;
+    
+}
+.page-title{
+    color: white;
+}
+#home{
+    color: white;
+    text-align: left;
+
+    
+}

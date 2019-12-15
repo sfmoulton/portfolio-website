@@ -47,13 +47,37 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
   @font-face {
-    font-family: 'Zilla Slab Highlight';
+    font-family: 'Chelsea Market';
     font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('Zilla Slab Highlight Bold'), local('ZillaSlabHighlight-Bold'), url(https://fonts.gstatic.com/s/zillaslabhighlight/v7/gNMUW2BrTpK8-inLtBJgMMfbm6uNVDvRxiP0THT_aGQ.woff2) format('woff2');
+    font-weight: 400;
+    src: local('Chelsea Market'), local('ChelseaMarket-Regular'), url(https://fonts.gstatic.com/s/chelseamarket/v7/BCawqZsHqfr89WNP_IApC8tzKChiJg8.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
+
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Special Elite Regular'), local('SpecialElite-Regular'), url(https://fonts.gstatic.com/s/specialelite/v10/XLYgIZbkc4JPUL5CVArUVL0ntnAOSA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Life Savers';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Life Savers Bold'), local('LifeSavers-Bold'), url(https://fonts.gstatic.com/s/lifesavers/v10/ZXu_e1UftKKabUQMgxAal8HXOR5UmcY.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Life Savers';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Life Savers ExtraBold'), local('LifeSavers-ExtraBold'), url(https://fonts.gstatic.com/s/lifesavers/v10/ZXu_e1UftKKabUQMgxAal8HLOh5UmcY.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
 html, body {
     height: 100%;
@@ -72,37 +96,41 @@ html, body {
     
 }
 .entrance-info {
-    font-size: 50pt;
+    font-size: 7vw;
     color:white;
     text-align: center;
     padding: 30px;
     font-family: 'Life Savers', cursive;
     display: inline-block;
-    font-weight: 700;
+    font-weight: 800;
     padding: 40pt;
+
      
 }
 #enter {
-    font-size: 20pt;
+    font-size: 5vw;
     color: white;
     border: 3px outset white;
     background-color: rgb(240,128,128);
-    font-family: 'Quicksand', sans-serif ;;
-    font-weight: 600;
+    font-family: 'Life Savers', cursive;
+    font-weight: 400;
     border-color: white;
-    padding: 20px;
+    padding: 15px;
     margin: 0 auto;
+    text-decoration: none;
 }
 
 
 .name {
    font-family:'Life Savers', cursive;
    color: white;
-   font-size: 40pt;
-   font-weight: 700;
+   font-size: 3.3vw;
+   font-weight: 800;
    letter-spacing: 0.1rem;
-   padding: 25px 30px 10px 30px;
-   margin-top: 60px;
+   padding: 75px 30px 10px 30px;
+   
+   
+
    
 }
 .nav {
@@ -112,6 +140,8 @@ html, body {
     position: fixed;
     top: 0;
     width: 100%;
+   
+   
 }
 .nav a {
     float: left;
@@ -120,8 +150,9 @@ html, body {
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
-    font-size: 16pt;
+    font-size: 2.5vw;
     font-family:'Life Savers', cursive;
+    letter-spacing: 0.1rem;
 }
 .nav a:hover {
     background: white;
@@ -132,46 +163,60 @@ html, body {
     color: white;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
-    padding: 30px;;
-    font-size: 16pt;
-    
+    font-size: 2.8vw;
+    line-height: 150%;
 }
 .page-title {
     color: white;
-    font-family: 'Quicksand', sans-serif;
-    padding: 0 30px 0 30px;
-    font-size: 25pt;
+    font-family: 'Life Savers', cursive;
+    font-size: 4.2vw;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
 }
 .sub-title {
     color: white;
-    font-family: 'Quicksand', sans-serif;
-    padding: 0 30px 0 30px;
-    font-size: 20pt;
+    font-family: 'Life Savers', cursive;
+    font-size: 3.5vw;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+
 }
 .work-experience li {
     color: white;
-    font-family: 'Quicksand', sans-serif;
-    padding: 0 20px 0 20px;
-    font-size: 15pt;
-    font-weight: bold;
+    font-family: ''Life Savers', cursive;
+    font-size: 2.5vw;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
 }
 .work-experience p {
     color: white;
     font-family: 'Quicksand', sans-serif;
-    padding: 0 20px 0 20px;
-    font-size: 12pt;
+    font-size: 2.4vw;
+    font-weight: 400;
+    line-height: 150%;
 }
 .contact-info {
     color: white;
     font-family: 'Quicksand', sans-serif;
-    padding: 50px 20px 0 40px;
-    font-size: 12pt;
-    left: 10px;
-    width: 50%;
-    float: left;
+    padding: 25px 30px 10px 30px;
+    font-size: 2.8vw;
+    width: 80%;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 150%;
 }
 .contact-image {
-   width: 40%;
-   padding: 50px 40px 0 20px;
-   float: right;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 30px 10px 30px;
+}
+.about-me {
+  color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.8vw;
+    font-weight: 400;
+    line-height: 150%;
 }

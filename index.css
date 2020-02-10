@@ -84,7 +84,7 @@ html, body {
     margin: 0;
 }
 .page-background {
-    background: url('../Portfolio/images/c.jpg') no-repeat center center fixed; 
+  background: url('./c.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -183,7 +183,7 @@ html, body {
 }
 .work-experience li {
     color: white;
-    font-family: ''Life Savers', cursive;
+    font-family: 'Life Savers', cursive;
     font-size: 2.5vw;
     font-weight: 700;
     letter-spacing: 0.1rem;
@@ -208,8 +208,7 @@ html, body {
 }
 .contact-image {
     width: 80%;
-    display: block;
-    margin-left: auto;
+    display: block;contact.jpg
     margin-right: auto;
     padding: 25px 30px 10px 30px;
 }
